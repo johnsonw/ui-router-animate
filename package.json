@@ -1,0 +1,30 @@
+{
+  "name": "ui-router-animate",
+  "version": "1.0.0",
+  "description": "Tutorial showing how to add animations to angular-ui-router transitions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/johnsonw/ui-router-animate.git"
+  },
+  "keywords": [
+    "ui-router",
+    "transition",
+    "animation",
+    "animate"
+  ],
+  "author": "Will Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnsonw/ui-router-animate/issues"
+  },
+  "homepage": "https://github.com/johnsonw/ui-router-animate#readme",
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "0.3.1",
+    "bootstrap": "^3.3.7"
+  }
+}
