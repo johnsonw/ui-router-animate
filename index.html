@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app.js"></script>
+    <script src="people.js"></script>
+    <script src="records.js"></script>
+    <script src="state.js"></script>
+    <script src="ui-loader-view.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/app.css"></link>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css"></link>
+    <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"></link>
+  </head>
+
+  <body ng-app="uiRouterAnimate">
+    <nav class="container navbar navbar-default">
+      <ol class="nav navbar-nav">
+        <li><a ui-sref="app.home" ui-sref-active="active">Home</a></li>
+        <li><a ui-sref="app.people.records" ui-sref-active="active">People</a></li>
+      </ol>
+    </nav>
+    <section class="container" id="appView">
+      <ui-loader-view load-once="true"></ui-loader-view>
+    </section>
+    <footer>
+      <hr/>
+      &copy; 2016 Will Johnson
+    </footer>
+  </body>
+</html>
